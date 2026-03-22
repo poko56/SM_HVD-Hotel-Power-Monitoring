@@ -18,6 +18,8 @@
 
 ## 🛠 System Architecture (โครงสร้างสถาปัตยกรรม)
 
+![SM_HVD System Workflow](sm_hvd_workflow.jpg)
+
 * **Master Node (ESP32):** ทำหน้าที่เป็นศูนย์กลาง รับข้อมูลจากลูกข่ายทั้งหมดผ่าน ESP-NOW และประมวลผลก่อนส่งข้อมูลผ่าน WiFi ไปยัง Telegram API
 * **Sensor Nodes (ESP8266):** ติดตั้งประจำจุด/ห้องพัก ทำหน้าที่ตรวจสอบกระแสไฟฟ้า 220V ผ่านวงจร Optocoupler (AC Detection) และส่งข้อมูลสถานะกลับไปยัง Master Node ทุกๆ 2 วินาที
 
@@ -45,11 +47,10 @@
 **Supachok Hornsombat (Pluem)**
 * 🎓 **Education:** Computer Technology, Faculty of Industrial Education and Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL)
 * 💻 **Role:** Programmer / IoT Developer / 3D Designer
-* 📷 **Photography:** Founder of [hiwmakmakkub](ใส่ลิงก์เพจถ้ามี)
 
-**Contact & Connect:**
-* 📧 Email: [gamepoko56@gmail.com]
-IG:pokomankrub
+**Let's Connect:**
+* 📧 Email: gamepoko56@gmail.com
+* 📷 IG: [@pokomankrub](https://www.instagram.com/pokomankrub/)
 
 ---
 
@@ -59,6 +60,6 @@ This project and its contents (including 3D designs, images, and documentation) 
 
 You are free to share and adapt the material for personal and educational purposes, provided you give appropriate credit to the original creator. **You may NOT use the material for commercial purposes (e.g., selling the hardware, using the code for commercial projects, or rebranding for profit) without explicit written permission.**
 
-For commercial inquiries or project collaborations, please contact: [ใส่อีเมลของคุณ]
+For commercial inquiries or project collaborations, please contact: gamepoko56@gmail.com
 
 > *📝 **Note:** The source code (C++/Arduino) for this hardware system is kept in a Private Repository for internal use, research, and security reasons.*
