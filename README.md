@@ -18,7 +18,7 @@
 
 ## 🛠 System Architecture (โครงสร้างสถาปัตยกรรม)
 
-![SM_HVD System Workflow](sm_hvd_workflow.jpg)
+![SM_HVD System Workflow](sm_hvd_workflow1.jpg)
 
 * **Master Node (ESP32):** ทำหน้าที่เป็นศูนย์กลาง รับข้อมูลจากลูกข่ายทั้งหมดผ่าน ESP-NOW และประมวลผลก่อนส่งข้อมูลผ่าน WiFi ไปยัง Telegram API
 * **Sensor Nodes (ESP8266):** ติดตั้งประจำจุด/ห้องพัก ทำหน้าที่ตรวจสอบกระแสไฟฟ้า 220V ผ่านวงจร Optocoupler (AC Detection) และส่งข้อมูลสถานะกลับไปยัง Master Node ทุกๆ 2 วินาที
