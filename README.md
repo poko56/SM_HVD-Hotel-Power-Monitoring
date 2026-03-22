@@ -29,6 +29,14 @@
 
 โปรเจกต์นี้ผสมผสานทั้งงาน Software, Hardware และ Media Production เข้าด้วยกันอย่างลงตัว:
 * **3D CAD Design:** เคสอุปกรณ์และจุดติดตั้งถูกออกแบบ 3D Modeling อย่างละเอียดด้วยโปรแกรม **SolidWorks**
+* **PCB Design & Development:** ออกแบบและพัฒนาแผ่นวงจรพิมพ์ (PCB) เอง เพื่อความเสถียรและความปลอดภัยในการใช้งานจริง
+
+  | ![PCB Schematic](image/PCB_1.png) | ![PCB 3D View](image/PCB_2.png) | ![Final PCB](image/PCB_3.png) |
+  | :---: | :---: | :---: |
+  | *PCB Schematic* | *PCB 3D Visualization* | *Final Fabricated PCB* |
+
+  *(💡 วิธีกดใส่รูป: อัปโหลดรูปภาพ PCB ทั้ง 3 รูปของคุณเข้า GitHub Repository แล้วนำลิงก์รูปภาพมาใส่แทนที่ `path_to_your_...` ในโค้ดด้านบน)*
+
 * **3D Printing:** ชิ้นส่วนประกอบฮาร์ดแวร์ถูกผลิตขึ้นรูปด้วยเครื่องพิมพ์ 3D **Anycubic Kobra 2 Pro** เพื่อให้ได้ขนาดที่แม่นยำ แข็งแรง ทนทานต่อการติดตั้งใช้งานจริง
 * **Media & Presentation:** ภาพถ่ายฮาร์ดแวร์ วิดีโอสาธิตการทำงาน และสื่อนำเสนอทั้งหมด ดำเนินการถ่ายทำและตัดต่อโดยทีมงาน **hiw.makmakkub production by POKOMAN**
 
